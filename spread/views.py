@@ -501,13 +501,13 @@ for that ,you should self-isolate. Seek medical attention if you have a fever, a
 				              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
 				                <tr>
 				                  <td class="content-block">
-				                    <span class="apple-link">DonWapp</span>
+				                    <span class="apple-link">SpreadIn</span>
 				                    <br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif">Unsubscribe</a>.
 				                  </td>
 				                </tr>
 				                <tr>
 				                  <td class="content-block powered-by">
-				                    Powered by <a href="http://htmlemail.io">DonWapp</a>.
+				                    Powered by <a href="http://htmlemail.io">Spread-in</a>.
 				                  </td>
 				                </tr>
 				              </table>
@@ -525,7 +525,7 @@ for that ,you should self-isolate. Seek medical attention if you have a fever, a
 
 
 
-		email = EmailMessage("DnoWapp Notification", html_content, EMAIL_HOST_USER, prob_mail)
+		email = EmailMessage("SpreadIn Notification", html_content, EMAIL_HOST_USER, prob_mail)
 		email.content_subtype = "html"
 		res = email.send()
 	return HttpResponse(response)
